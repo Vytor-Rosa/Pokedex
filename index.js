@@ -8,7 +8,7 @@ logo.className = 'logo';
 document.body.appendChild(logo);
 
     const filtro = document.createElement('input');
-    filtro.placeholder = "filtro";
+    filtro.placeholder = "filtro"; 
     document.body.appendChild(filtro);
     filtro.id = 'myInput';
     filtro.onkeyup = 'myFunction()';
